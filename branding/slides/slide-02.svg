@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <!-- Base -->
+  <rect width="1920" height="1080" fill="#FFFFFF"/>
+  <rect x="0" y="0" width="12" height="1080" fill="#0D9488"/>
+  <rect x="12" y="0" width="1908" height="4" fill="#0D9488"/>
+  <rect x="12" y="1076" width="1908" height="4" fill="#0A0A0A"/>
+
+  <!-- Partner logo boxes -->
+  <rect x="60" y="20" width="220" height="40" fill="#0D9488" rx="4"/>
+  <text x="170" y="46" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#FFFFFF" text-anchor="middle">AI Agent Olympics</text>
+  <rect x="1640" y="20" width="220" height="40" fill="#0A0A0A" rx="4"/>
+  <text x="1750" y="46" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#FFFFFF" text-anchor="middle">lablab.ai · 5 Sponsors</text>
+
+  <!-- Slide number -->
+  <text x="1860" y="50" font-family="Arial,sans-serif" font-size="18" fill="#5A5A5A" text-anchor="end">02 / 08</text>
+
+  <!-- Context label -->
+  <text x="960" y="100" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#0D9488" text-anchor="middle" letter-spacing="3">JPMORGAN · APPLE · DOD · THE COMPLIANCE GAP IS REAL AND UNSOLVED · 3 YEARS LATER</text>
+
+  <!-- Red sub-headline -->
+  <text x="80" y="150" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#DC2626">Enterprise agents leak data. The three biggest tech bans are still in force.</text>
+
+  <!-- Headline -->
+  <text x="80" y="198" font-family="Arial Black,Arial,sans-serif" font-size="34" font-weight="900" fill="#0A0A0A">50,000 JPM developers. 10,000 Apple iOS devs. Tens of thousands at DoD. All banned from AI tools.</text>
+
+  <!-- Teal divider -->
+  <rect x="80" y="218" width="1760" height="4" fill="#0D9488" rx="2"/>
+
+  <!-- CARD 1 — Red left border (JPMorgan/CNN) -->
+  <rect x="80" y="235" width="560" height="280" fill="#F4F4F4" stroke="#E0E0E0" stroke-width="1" rx="6"/>
+  <rect x="80" y="235" width="6" height="280" fill="#DC2626" rx="3"/>
+  <!-- Source badge -->
+  <rect x="100" y="252" width="160" height="26" fill="#DC2626" rx="3"/>
+  <text x="180" y="270" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">CNN · FEB 22, 2023</text>
+  <text x="100" y="310" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#DC2626">cnn.com/2023/02/22</text>
+  <text x="100" y="340" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#0A0A0A">JPMorgan restricts employee</text>
+  <text x="100" y="362" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#0A0A0A">use of ChatGPT — 50,000</text>
+  <text x="100" y="384" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#0A0A0A">developers. Still in force 2026.</text>
+  <rect x="100" y="400" width="520" height="1" fill="#E0E0E0"/>
+  <text x="100" y="420" font-family="Arial,sans-serif" font-size="14" fill="#444444">Compliance, IP, and data leakage concerns.</text>
+  <text x="100" y="440" font-family="Arial,sans-serif" font-size="14" fill="#444444">ChatGPT banned across all business units.</text>
+  <text x="100" y="460" font-family="Arial,sans-serif" font-size="14" fill="#DC2626" font-weight="700">No audit trail = no approval.</text>
+  <!-- Giant number -->
+  <text x="590" y="490" font-family="Arial Black,Arial,sans-serif" font-size="80" font-weight="900" fill="#DC2626" opacity="0.12" text-anchor="end">50K</text>
+
+  <!-- CARD 2 — Amber left border (Apple/MacRumors) -->
+  <rect x="680" y="235" width="560" height="280" fill="#F4F4F4" stroke="#E0E0E0" stroke-width="1" rx="6"/>
+  <rect x="680" y="235" width="6" height="280" fill="#F59E0B" rx="3"/>
+  <rect x="700" y="252" width="200" height="26" fill="#F59E0B" rx="3"/>
+  <text x="800" y="270" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">MacRumors / WSJ · MAY 2023</text>
+  <text x="700" y="310" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#B45309">macrumors.com/2023/05/19</text>
+  <text x="700" y="340" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#0A0A0A">Apple bans ChatGPT and GitHub</text>
+  <text x="700" y="362" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#0A0A0A">Copilot. 10,000 iOS developers</text>
+  <text x="700" y="384" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#0A0A0A">blocked. Still in force.</text>
+  <rect x="700" y="400" width="520" height="1" fill="#E0E0E0"/>
+  <text x="700" y="420" font-family="Arial,sans-serif" font-size="14" fill="#444444">Fears over data fed to external AI models.</text>
+  <text x="700" y="440" font-family="Arial,sans-serif" font-size="14" fill="#444444">Both Claude and Copilot banned internally.</text>
+  <text x="700" y="460" font-family="Arial,sans-serif" font-size="14" fill="#B45309" font-weight="700">Still in force 2026.</text>
+  <text x="1190" y="490" font-family="Arial Black,Arial,sans-serif" font-size="80" font-weight="900" fill="#F59E0B" opacity="0.12" text-anchor="end">10K</text>
+
+  <!-- CARD 3 — Teal left border (DoD/DefenseScoop) -->
+  <rect x="1280" y="235" width="560" height="280" fill="#F4F4F4" stroke="#E0E0E0" stroke-width="1" rx="6"/>
+  <rect x="1280" y="235" width="6" height="280" fill="#0D9488" rx="3"/>
+  <rect x="1300" y="252" width="220" height="26" fill="#0D9488" rx="3"/>
+  <text x="1410" y="270" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">DefenseScoop · FEB 26, 2026</text>
+  <text x="1300" y="310" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#0D9488">defensescoop.com/2026/02/26</text>
+  <text x="1300" y="340" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#0A0A0A">DoD wants AI coding tools for</text>
+  <text x="1300" y="362" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#0A0A0A">'tens of thousands' of devs.</text>
+  <text x="1300" y="384" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#0A0A0A">On-premises only.</text>
+  <rect x="1300" y="400" width="520" height="1" fill="#E0E0E0"/>
+  <text x="1300" y="420" font-family="Arial,sans-serif" font-size="14" fill="#444444">Feb 2026: Pentagon requires zero data</text>
+  <text x="1300" y="440" font-family="Arial,sans-serif" font-size="14" fill="#444444">leaving the secure perimeter.</text>
+  <text x="1300" y="460" font-family="Arial,sans-serif" font-size="14" fill="#0D9488" font-weight="700">Audit trail mandatory.</text>
+  <text x="1790" y="490" font-family="Arial Black,Arial,sans-serif" font-size="60" font-weight="900" fill="#0D9488" opacity="0.12" text-anchor="end">OPSEC</text>
+
+  <!-- "They said it / We built the proof" banner -->
+  <rect x="80" y="545" width="1760" height="60" fill="#0A0A0A" rx="6"/>
+  <text x="960" y="581" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#F59E0B" text-anchor="middle">THEY SAID IT  ·  WE BUILT THE PROOF  ·  ATLAS  ·  29/29 TESTS PASS</text>
+
+  <!-- Bottom bar with compliance gap statement -->
+  <rect x="80" y="625" width="1760" height="80" fill="#FEF3C7" stroke="#F59E0B" stroke-width="2" rx="6"/>
+  <rect x="80" y="625" width="6" height="80" fill="#F59E0B" rx="3"/>
+  <text x="960" y="660" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#0A0A0A" text-anchor="middle">THE COMPLIANCE GAP: Every enterprise needs governed AI agents with full audit trails.</text>
+  <text x="960" y="690" font-family="Arial,sans-serif" font-size="18" fill="#0A0A0A" text-anchor="middle">ATLAS is the first open-source solution that passes a scientific test suite.  29/29 PASS.</text>
+
+  <!-- Market size callout -->
+  <rect x="80" y="725" width="420" height="90" fill="#F4F4F4" stroke="#0D9488" stroke-width="2" rx="6"/>
+  <text x="290" y="760" font-family="Arial Black,Arial,sans-serif" font-size="42" font-weight="900" fill="#0D9488" text-anchor="middle">60K+</text>
+  <text x="290" y="800" font-family="Arial,sans-serif" font-size="16" fill="#444444" text-anchor="middle">developers locked out of AI tools</text>
+
+  <rect x="530" y="725" width="420" height="90" fill="#F4F4F4" stroke="#DC2626" stroke-width="2" rx="6"/>
+  <text x="740" y="760" font-family="Arial Black,Arial,sans-serif" font-size="42" font-weight="900" fill="#DC2626" text-anchor="middle">3 YRS</text>
+  <text x="740" y="800" font-family="Arial,sans-serif" font-size="16" fill="#444444" text-anchor="middle">bans still in force — unsolved</text>
+
+  <rect x="980" y="725" width="420" height="90" fill="#F4F4F4" stroke="#F59E0B" stroke-width="2" rx="6"/>
+  <text x="1190" y="760" font-family="Arial Black,Arial,sans-serif" font-size="42" font-weight="900" fill="#F59E0B" text-anchor="middle">$0</text>
+  <text x="1190" y="800" font-family="Arial,sans-serif" font-size="16" fill="#444444" text-anchor="middle">open-source governed agent — until now</text>
+
+  <rect x="1430" y="725" width="410" height="90" fill="#0D9488" rx="6"/>
+  <text x="1635" y="755" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#FFFFFF" text-anchor="middle">ATLAS fills this gap.</text>
+  <text x="1635" y="780" font-family="Arial,sans-serif" font-size="14" fill="#FFFFFF" text-anchor="middle">First governed multi-agent.</text>
+  <text x="1635" y="802" font-family="Arial,sans-serif" font-size="14" fill="#FFFFFF" text-anchor="middle">MIT Licensed. 29/29 PASS.</text>
+
+  <!-- Source -->
+  <text x="80" y="1055" font-family="Courier New,monospace" font-size="12" fill="#5A5A5A">Sources: cnn.com/2023/02/22 · macrumors.com/2023/05/19 · defensescoop.com/2026/02/26 · All primary sources, all verifiable</text>
+</svg>

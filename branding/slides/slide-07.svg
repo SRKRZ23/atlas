@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <!-- Base -->
+  <rect width="1920" height="1080" fill="#FFFFFF"/>
+  <rect x="0" y="0" width="12" height="1080" fill="#0D9488"/>
+  <rect x="12" y="0" width="1908" height="4" fill="#0D9488"/>
+  <rect x="12" y="1076" width="1908" height="4" fill="#0A0A0A"/>
+
+  <!-- Partner logo boxes -->
+  <rect x="60" y="20" width="220" height="40" fill="#0D9488" rx="4"/>
+  <text x="170" y="46" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#FFFFFF" text-anchor="middle">AI Agent Olympics</text>
+  <rect x="1640" y="20" width="220" height="40" fill="#0A0A0A" rx="4"/>
+  <text x="1750" y="46" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#FFFFFF" text-anchor="middle">lablab.ai · 5 Sponsors</text>
+
+  <!-- Slide number -->
+  <text x="1860" y="50" font-family="Arial,sans-serif" font-size="18" fill="#5A5A5A" text-anchor="end">07 / 08</text>
+
+  <!-- Context label -->
+  <text x="960" y="100" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#0D9488" text-anchor="middle" letter-spacing="3">AI RELIABILITY ECOSYSTEM · 4 PRODUCTS · ONE MISSION · ALL MIT LICENSED</text>
+
+  <!-- Title -->
+  <text x="80" y="158" font-family="Arial Black,Arial,sans-serif" font-size="44" font-weight="900" fill="#0A0A0A">ATLAS proves the governance stack works end-to-end.</text>
+  <rect x="80" y="172" width="1760" height="4" fill="#0D9488" rx="2"/>
+
+  <!-- Ecosystem label -->
+  <rect x="780" y="185" width="360" height="38" fill="#0A0A0A" rx="6"/>
+  <text x="960" y="209" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#F59E0B" text-anchor="middle">AI RELIABILITY ECOSYSTEM</text>
+
+  <!-- ====== 2x2 GRID ====== -->
+
+  <!-- SOUF AI — top left (orange/amber) -->
+  <rect x="80" y="238" width="840" height="350" fill="#FFFBEB" stroke="#F59E0B" stroke-width="3" rx="10"/>
+  <rect x="80" y="238" width="840" height="10" fill="#F59E0B" rx="5"/>
+  <text x="500" y="302" font-family="Arial Black,Arial,sans-serif" font-size="52" font-weight="900" fill="#F59E0B" text-anchor="middle">SOUF AI</text>
+  <rect x="240" y="315" width="520" height="34" fill="#F59E0B" rx="4"/>
+  <text x="500" y="338" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#FFFFFF" text-anchor="middle">DPI · INLINE GOVERNANCE · AI COMPLIANCE</text>
+  <text x="500" y="386" font-family="Arial,sans-serif" font-size="18" fill="#444444" text-anchor="middle">Detects 50+ attack patterns in &lt;1ms</text>
+  <text x="500" y="412" font-family="Arial,sans-serif" font-size="18" fill="#444444" text-anchor="middle">Encoding attacks · PAN disclosure · prompt injection</text>
+  <text x="500" y="438" font-family="Arial,sans-serif" font-size="18" fill="#444444" text-anchor="middle">Ed25519 signed decisions · SOUF AI F1=1.000</text>
+  <text x="500" y="464" font-family="Arial,sans-serif" font-size="18" fill="#444444" text-anchor="middle">29 tests PASS in TechEx $10K track</text>
+  <rect x="200" y="488" width="600" height="3" fill="#F59E0B" opacity="0.4" rx="2"/>
+  <!-- ARROW INDICATOR: embedded in ATLAS -->
+  <rect x="240" y="500" width="520" height="56" fill="#F59E0B" rx="6"/>
+  <text x="500" y="526" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#FFFFFF" text-anchor="middle">→ DPI ENGINE IS EMBEDDED INSIDE ATLAS</text>
+  <text x="500" y="546" font-family="Arial,sans-serif" font-size="14" fill="#FFFFFF" text-anchor="middle">Every ATLAS LLM call goes through SOUF AI DPI &lt;1ms</text>
+  <rect x="100" y="568" width="100" height="30" fill="#F59E0B" rx="4"/>
+  <text x="150" y="588" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">MIT</text>
+
+  <!-- FORGE — top right (blue) -->
+  <rect x="1000" y="238" width="840" height="350" fill="#EFF6FF" stroke="#2563EB" stroke-width="2" rx="10"/>
+  <rect x="1000" y="238" width="840" height="10" fill="#2563EB" rx="5"/>
+  <text x="1420" y="302" font-family="Arial Black,Arial,sans-serif" font-size="52" font-weight="900" fill="#2563EB" text-anchor="middle">FORGE</text>
+  <rect x="1160" y="315" width="520" height="34" fill="#2563EB" rx="4"/>
+  <text x="1420" y="338" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#FFFFFF" text-anchor="middle">POLICY GENERATION · GOVERNANCE RULES · IBM</text>
+  <text x="1420" y="386" font-family="Arial,sans-serif" font-size="18" fill="#444444" text-anchor="middle">Generates AI governance policies from regulations</text>
+  <text x="1420" y="412" font-family="Arial,sans-serif" font-size="18" fill="#444444" text-anchor="middle">25/25 tests PASS · IBM Bob $10K track</text>
+  <text x="1420" y="438" font-family="Arial,sans-serif" font-size="18" fill="#444444" text-anchor="middle">Watsonx.ai + compliance automation</text>
+  <text x="1420" y="464" font-family="Arial,sans-serif" font-size="18" fill="#444444" text-anchor="middle">FORGE policies → governs ATLAS deployments</text>
+  <rect x="1120" y="488" width="600" height="3" fill="#2563EB" opacity="0.4" rx="2"/>
+  <rect x="1160" y="500" width="520" height="56" fill="#2563EB" rx="6"/>
+  <text x="1420" y="526" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#FFFFFF" text-anchor="middle">→ GENERATES ATLAS DEPLOYMENT POLICIES</text>
+  <text x="1420" y="546" font-family="Arial,sans-serif" font-size="14" fill="#FFFFFF" text-anchor="middle">Compliance rules for JPMorgan / DoD-grade environments</text>
+  <rect x="1020" y="568" width="100" height="30" fill="#2563EB" rx="4"/>
+  <text x="1070" y="588" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">MIT</text>
+
+  <!-- Center connection arrow (horizontal) -->
+  <line x1="920" y1="413" x2="1000" y2="413" stroke="#0D9488" stroke-width="4" stroke-dasharray="8,4"/>
+  <polygon points="990,403 1010,413 990,423" fill="#0D9488"/>
+
+  <!-- ATLAS — bottom left (TEAL — HIGHLIGHTED) -->
+  <rect x="80" y="608" width="840" height="350" fill="#0D9488" rx="10"/>
+  <rect x="80" y="608" width="840" height="10" fill="#065F5A" rx="5"/>
+  <!-- Highlight ring -->
+  <rect x="80" y="608" width="840" height="350" fill="none" stroke="#F59E0B" stroke-width="4" rx="10"/>
+  <text x="500" y="672" font-family="Arial Black,Arial,sans-serif" font-size="52" font-weight="900" fill="#FFFFFF" text-anchor="middle">ATLAS</text>
+  <rect x="180" y="682" width="640" height="34" fill="#F59E0B" rx="4"/>
+  <text x="500" y="705" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#0A0A0A" text-anchor="middle">★ THIS SUBMISSION · AI AGENT OLYMPICS 2026</text>
+  <text x="500" y="750" font-family="Arial,sans-serif" font-size="18" fill="#CCFBF1" text-anchor="middle">Enterprise multi-agent system with AI governance</text>
+  <text x="500" y="776" font-family="Arial,sans-serif" font-size="18" fill="#CCFBF1" text-anchor="middle">5 sponsor integrations · 29/29 PASS · Ed25519 chain</text>
+  <text x="500" y="802" font-family="Arial,sans-serif" font-size="18" fill="#CCFBF1" text-anchor="middle">JPMorgan-grade · DoD-grade · Apple-grade compliance</text>
+  <text x="500" y="828" font-family="Arial,sans-serif" font-size="18" fill="#F59E0B" font-weight="700" text-anchor="middle">The governed agent. SOUF AI inside. FORGE governs. CITADEL evaluates.</text>
+  <rect x="200" y="848" width="600" height="3" fill="#F59E0B" opacity="0.6" rx="2"/>
+  <rect x="220" y="858" width="160" height="30" fill="#F59E0B" rx="4"/>
+  <text x="300" y="878" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#0A0A0A" text-anchor="middle">MIT LICENSED</text>
+  <rect x="420" y="858" width="360" height="30" fill="#065F5A" rx="4"/>
+  <text x="600" y="878" font-family="Courier New,monospace" font-size="13" fill="#0D9488" text-anchor="middle">github.com/SRKRZ23 (ATLAS pushing May 20)</text>
+
+  <!-- CITADEL — bottom right (green) -->
+  <rect x="1000" y="608" width="840" height="350" fill="#F0FDF4" stroke="#16A34A" stroke-width="2" rx="10"/>
+  <rect x="1000" y="608" width="840" height="10" fill="#16A34A" rx="5"/>
+  <text x="1420" y="672" font-family="Arial Black,Arial,sans-serif" font-size="52" font-weight="900" fill="#16A34A" text-anchor="middle">CITADEL</text>
+  <rect x="1160" y="682" width="520" height="34" fill="#16A34A" rx="4"/>
+  <text x="1420" y="705" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#FFFFFF" text-anchor="middle">BENCHMARK · LLM EVAL · GEMMA 4 GOOD $200K</text>
+  <text x="1420" y="750" font-family="Arial,sans-serif" font-size="18" fill="#444444" text-anchor="middle">AI safety evaluation benchmark</text>
+  <text x="1420" y="776" font-family="Arial,sans-serif" font-size="18" fill="#444444" text-anchor="middle">76/76 PASS · Gemma 4 Good $200K · submitted</text>
+  <text x="1420" y="802" font-family="Arial,sans-serif" font-size="18" fill="#444444" text-anchor="middle">Evaluates which models are safe for enterprise use</text>
+  <text x="1420" y="828" font-family="Arial,sans-serif" font-size="18" fill="#444444" text-anchor="middle">CITADEL evaluates → ATLAS selects the right model</text>
+  <rect x="1120" y="848" width="600" height="3" fill="#16A34A" opacity="0.4" rx="2"/>
+  <rect x="1160" y="858" width="520" height="30" fill="#16A34A" rx="6"/>
+  <text x="1420" y="878" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#FFFFFF" text-anchor="middle">→ EVALUATES MODELS DEPLOYED IN ATLAS</text>
+
+  <!-- Center connection arrow (vertical, between rows) -->
+  <line x1="500" y1="608" x2="500" y2="598" stroke="#F59E0B" stroke-width="4"/>
+  <line x1="500" y1="588" x2="500" y2="598" stroke="#F59E0B" stroke-width="4"/>
+  <line x1="1420" y1="608" x2="1420" y2="598" stroke="#2563EB" stroke-width="4" stroke-dasharray="6,3"/>
+  <line x1="920" y1="783" x2="1000" y2="783" stroke="#16A34A" stroke-width="4" stroke-dasharray="8,4"/>
+  <polygon points="990,773 1010,783 990,793" fill="#16A34A"/>
+
+  <!-- Bottom caption -->
+  <rect x="80" y="975" width="1760" height="68" fill="#0A0A0A" rx="6"/>
+  <text x="960" y="1003" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#FFFFFF" text-anchor="middle">This is not 4 isolated tools. It is one infrastructure.</text>
+  <text x="960" y="1029" font-family="Arial,sans-serif" font-size="17" fill="#F59E0B" text-anchor="middle">The acquirer who buys one gets the ecosystem. All MIT Licensed. All with scientific test suites.</text>
+
+  <!-- Source -->
+  <text x="80" y="1055" font-family="Courier New,monospace" font-size="12" fill="#5A5A5A">SOUF AI: github.com/SRKRZ23/souf-ai · FORGE: github.com/SRKRZ23/ibm-bob-forge · ATLAS: github.com/SRKRZ23 (ATLAS pushing May 20) · CITADEL: github.com/SRKRZ23/citadel</text>
+</svg>

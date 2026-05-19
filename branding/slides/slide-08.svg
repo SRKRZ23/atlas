@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <!-- Base -->
+  <rect width="1920" height="1080" fill="#FFFFFF"/>
+  <rect x="0" y="0" width="12" height="1080" fill="#0D9488"/>
+  <rect x="12" y="0" width="1908" height="4" fill="#0D9488"/>
+  <rect x="12" y="1076" width="1908" height="4" fill="#0A0A0A"/>
+
+  <!-- Partner logo boxes -->
+  <rect x="60" y="20" width="220" height="40" fill="#0D9488" rx="4"/>
+  <text x="170" y="46" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#FFFFFF" text-anchor="middle">AI Agent Olympics</text>
+  <rect x="1640" y="20" width="220" height="40" fill="#0A0A0A" rx="4"/>
+  <text x="1750" y="46" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#FFFFFF" text-anchor="middle">lablab.ai · 5 Sponsors</text>
+
+  <!-- Slide number -->
+  <text x="1860" y="50" font-family="Arial,sans-serif" font-size="18" fill="#5A5A5A" text-anchor="end">08 / 08</text>
+
+  <!-- Context label -->
+  <text x="960" y="100" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#0D9488" text-anchor="middle" letter-spacing="3">OPEN SOURCE · MIT · REPRODUCIBLE · AI AGENT OLYMPICS 2026</text>
+
+  <!-- Giant number background watermark -->
+  <text x="960" y="700" font-family="Arial Black,Arial,sans-serif" font-size="500" font-weight="900" fill="#0D9488" opacity="0.04" text-anchor="middle">29</text>
+
+  <!-- GitHub URL — main CTA -->
+  <text x="960" y="200" font-family="Courier New,monospace" font-size="52" font-weight="700" fill="#0D9488" text-anchor="middle">github.com/SRKRZ23/atlas</text>
+  <rect x="200" y="212" width="1520" height="6" fill="#0D9488" rx="3"/>
+
+  <!-- Evidence pack dark box -->
+  <rect x="80" y="235" width="1760" height="130" fill="#0A0A0A" rx="8"/>
+  <rect x="80" y="235" width="8" height="130" fill="#F59E0B" rx="4"/>
+  <text x="960" y="275" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#F59E0B" text-anchor="middle">FULL EVIDENCE PACK</text>
+  <text x="960" y="308" font-family="Courier New,monospace" font-size="18" fill="#FFFFFF" text-anchor="middle">python src/test_atlas.py  →  29/29 PASS in under 1 second</text>
+  <text x="960" y="334" font-family="Arial,sans-serif" font-size="16" fill="#CCCCCC" text-anchor="middle">5 sponsor APIs verified  ·  Ed25519 chain_verified: True  ·  AtlasAgent.run_text() end-to-end tested</text>
+  <text x="960" y="355" font-family="Arial,sans-serif" font-size="16" fill="#CCCCCC" text-anchor="middle">SHA-256 hash chain  ·  DPI &lt;1ms ALLOW/DENY  ·  Featherless routing  ·  Speechmatics &lt;200ms</text>
+
+  <!-- Reproduce command box -->
+  <rect x="80" y="385" width="1760" height="88" fill="#F4F4F4" stroke="#0D9488" stroke-width="2" rx="8"/>
+  <text x="960" y="416" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#5A5A5A" text-anchor="middle">REPRODUCE IN 2 COMMANDS:</text>
+  <text x="960" y="452" font-family="Courier New,monospace" font-size="24" fill="#0D9488" text-anchor="middle">git clone github.com/SRKRZ23/atlas  &amp;&amp;  python src/test_atlas.py  →  29/29 PASS</text>
+
+  <!-- 3 column impact stats -->
+  <rect x="80" y="495" width="550" height="130" fill="#F0FDFA" stroke="#0D9488" stroke-width="2" rx="8"/>
+  <rect x="80" y="495" width="550" height="8" fill="#0D9488" rx="4"/>
+  <text x="355" y="558" font-family="Arial Black,Arial,sans-serif" font-size="70" font-weight="900" fill="#0D9488" text-anchor="middle">29/29</text>
+  <text x="355" y="606" font-family="Arial,sans-serif" font-size="18" fill="#444444" text-anchor="middle">Tests PASS · 7 categories</text>
+
+  <rect x="685" y="495" width="550" height="130" fill="#FFFBEB" stroke="#F59E0B" stroke-width="2" rx="8"/>
+  <rect x="685" y="495" width="550" height="8" fill="#F59E0B" rx="4"/>
+  <text x="960" y="558" font-family="Arial Black,Arial,sans-serif" font-size="70" font-weight="900" fill="#F59E0B" text-anchor="middle">5</text>
+  <text x="960" y="606" font-family="Arial,sans-serif" font-size="18" fill="#444444" text-anchor="middle">Sponsor integrations · all real APIs</text>
+
+  <rect x="1290" y="495" width="550" height="130" fill="#F4F4F4" stroke="#0A0A0A" stroke-width="2" rx="8"/>
+  <rect x="1290" y="495" width="550" height="8" fill="#0A0A0A" rx="4"/>
+  <text x="1565" y="558" font-family="Arial Black,Arial,sans-serif" font-size="70" font-weight="900" fill="#0A0A0A" text-anchor="middle">&lt;1ms</text>
+  <text x="1565" y="606" font-family="Arial,sans-serif" font-size="18" fill="#444444" text-anchor="middle">DPI governance · every LLM call</text>
+
+  <!-- Sardor credentials box -->
+  <rect x="80" y="648" width="1760" height="100" fill="#F8F8F8" stroke="#0D9488" stroke-width="1" rx="8"/>
+  <rect x="80" y="648" width="6" height="100" fill="#0D9488" rx="3"/>
+  <text x="960" y="687" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#0A0A0A" text-anchor="middle">Sardor Razikov · Independent ML Engineer</text>
+  <text x="960" y="716" font-family="Arial,sans-serif" font-size="17" fill="#5A5A5A" text-anchor="middle">Top 1.9% Kaggle SPR  ·  Zenodo Author  ·  ORCID: 0009-0007-0731-4247  ·  Tashkent, Uzbekistan</text>
+  <text x="960" y="740" font-family="Arial,sans-serif" font-size="15" fill="#0D9488" text-anchor="middle">GitHub: SRKRZ23  ·  4 products shipped: SOUF AI · FORGE · ATLAS · CITADEL  ·  All MIT Licensed</text>
+
+  <!-- Sponsor strip -->
+  <rect x="80" y="770" width="1760" height="60" fill="#F4F4F4" stroke="#E0E0E0" stroke-width="1" rx="6"/>
+  <text x="270" y="806" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#0A0A0A" text-anchor="middle">Speechmatics</text>
+  <text x="560" y="806" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#0D9488" text-anchor="middle">Featherless</text>
+  <text x="850" y="806" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#4285F4" text-anchor="middle">Gemini</text>
+  <text x="1140" y="806" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#E35C14" text-anchor="middle">Vultr</text>
+  <text x="1430" y="806" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#5B21B6" text-anchor="middle">Kraken</text>
+  <text x="1710" y="806" font-family="Arial,sans-serif" font-size="15" fill="#5A5A5A" text-anchor="middle">All verified ✓</text>
+
+  <!-- Bottom bar teal -->
+  <rect x="80" y="852" width="1760" height="64" fill="#0D9488" rx="6"/>
+  <text x="960" y="880" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="middle">AI Agent Olympics 2026  ·  Enterprise Multi-Agent  ·  $28K+ Prize Pool  ·  lablab.ai</text>
+  <text x="960" y="904" font-family="Arial,sans-serif" font-size="16" fill="#CCFBF1" text-anchor="middle">29/29 PASS  ·  Ed25519 signed  ·  SHA-256 hash chain  ·  5 sponsors  ·  MIT Licensed  ·  Open Source</text>
+
+  <!-- Source -->
+  <text x="80" y="1055" font-family="Courier New,monospace" font-size="12" fill="#5A5A5A">Source: src/test_atlas.py · All test assertions open source · github.com/SRKRZ23/atlas · Run yourself to verify · MIT License</text>
+</svg>

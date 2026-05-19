@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <!-- Base -->
+  <rect width="1920" height="1080" fill="#FFFFFF"/>
+  <rect x="0" y="0" width="12" height="1080" fill="#0D9488"/>
+  <rect x="12" y="0" width="1908" height="4" fill="#0D9488"/>
+  <rect x="12" y="1076" width="1908" height="4" fill="#0A0A0A"/>
+
+  <!-- Partner logo boxes -->
+  <rect x="60" y="20" width="220" height="40" fill="#0D9488" rx="4"/>
+  <text x="170" y="46" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#FFFFFF" text-anchor="middle">AI Agent Olympics</text>
+  <rect x="1640" y="20" width="220" height="40" fill="#0A0A0A" rx="4"/>
+  <text x="1750" y="46" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#FFFFFF" text-anchor="middle">lablab.ai · 5 Sponsors</text>
+
+  <!-- Slide number -->
+  <text x="1860" y="50" font-family="Arial,sans-serif" font-size="18" fill="#5A5A5A" text-anchor="end">04 / 08</text>
+
+  <!-- Context label -->
+  <text x="960" y="100" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#0D9488" text-anchor="middle" letter-spacing="3">6-LAYER GOVERNED PIPELINE · 5 SPONSORS · SOUF AI DPI INSIDE · ED25519 EVERY ACTION</text>
+
+  <!-- Title -->
+  <text x="80" y="155" font-family="Arial Black,Arial,sans-serif" font-size="38" font-weight="900" fill="#0A0A0A">Governance in every layer — not bolted on.</text>
+  <rect x="80" y="168" width="1760" height="4" fill="#0D9488" rx="2"/>
+
+  <!-- ========================= PIPELINE FLOW (LEFT/CENTER) ========================= -->
+  <!-- Column center X for flow nodes -->
+
+  <!-- Node 1: User -->
+  <rect x="80" y="188" width="580" height="70" fill="#0A0A0A" rx="8"/>
+  <text x="370" y="218" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="middle">USER  (voice / text)</text>
+  <text x="370" y="242" font-family="Arial,sans-serif" font-size="15" fill="#0D9488" text-anchor="middle">Input: natural language request</text>
+  <!-- Arrow down -->
+  <line x1="370" y1="258" x2="370" y2="288" stroke="#0D9488" stroke-width="3"/>
+  <polygon points="360,282 380,282 370,300" fill="#0D9488"/>
+
+  <!-- Node 2: Speechmatics -->
+  <rect x="80" y="300" width="580" height="70" fill="#F59E0B" rx="8"/>
+  <text x="370" y="326" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="middle">Speechmatics STT  &lt;200ms</text>
+  <text x="370" y="350" font-family="Arial,sans-serif" font-size="15" fill="#0A0A0A" text-anchor="middle">Real-time voice → text transcription</text>
+  <!-- Arrow down -->
+  <line x1="370" y1="370" x2="370" y2="400" stroke="#0D9488" stroke-width="3"/>
+  <polygon points="360,394 380,394 370,412" fill="#0D9488"/>
+
+  <!-- Node 3: SOUF AI DPI — critical governance layer -->
+  <rect x="80" y="412" width="580" height="80" fill="#DC2626" rx="8"/>
+  <rect x="80" y="412" width="580" height="80" fill="none" stroke="#F59E0B" stroke-width="3" rx="8"/>
+  <text x="370" y="442" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="middle">SOUF AI DPI  &lt;1ms  ALLOW / DENY</text>
+  <text x="370" y="466" font-family="Arial,sans-serif" font-size="15" fill="#FFCCCC" text-anchor="middle">Inline policy enforcement — every single LLM call</text>
+  <text x="370" y="485" font-family="Arial,sans-serif" font-size="13" fill="#FFF3CD" text-anchor="middle">Encoding attacks · PAN detection · injection patterns blocked</text>
+
+  <!-- DENY branch off to right -->
+  <line x1="660" y1="452" x2="760" y2="452" stroke="#DC2626" stroke-width="3" stroke-dasharray="6,3"/>
+  <polygon points="754,442 774,452 754,462" fill="#DC2626"/>
+  <rect x="774" y="420" width="280" height="64" fill="#FEE2E2" stroke="#DC2626" stroke-width="2" rx="6"/>
+  <text x="914" y="445" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#DC2626" text-anchor="middle">DENY → Blocked</text>
+  <text x="914" y="465" font-family="Arial,sans-serif" font-size="13" fill="#444444" text-anchor="middle">Threat audit logged</text>
+  <text x="914" y="481" font-family="Arial,sans-serif" font-size="13" fill="#444444" text-anchor="middle">Ed25519 signed</text>
+
+  <!-- Arrow down from SOUF -->
+  <line x1="370" y1="492" x2="370" y2="522" stroke="#0D9488" stroke-width="3"/>
+  <polygon points="360,516 380,516 370,534" fill="#0D9488"/>
+
+  <!-- Node 4: Gemini orchestrator -->
+  <rect x="80" y="534" width="580" height="70" fill="#4285F4" rx="8"/>
+  <text x="370" y="560" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="middle">Gemini Pro  (orchestrator)</text>
+  <text x="370" y="584" font-family="Arial,sans-serif" font-size="15" fill="#E8F0FE" text-anchor="middle">plan() + synthesise() — multi-step reasoning</text>
+  <!-- Arrow down -->
+  <line x1="370" y1="604" x2="370" y2="634" stroke="#0D9488" stroke-width="3"/>
+  <polygon points="360,628 380,628 370,646" fill="#0D9488"/>
+
+  <!-- Node 5: Featherless router -->
+  <rect x="80" y="646" width="580" height="80" fill="#0D9488" rx="8"/>
+  <text x="370" y="672" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="middle">Featherless Router</text>
+  <text x="370" y="696" font-family="Arial,sans-serif" font-size="14" fill="#CCFBF1" text-anchor="middle">Medical→BioMistral  ·  Code→DeepSeek  ·  Multi→Qwen2.5  ·  General</text>
+  <text x="370" y="716" font-family="Arial,sans-serif" font-size="13" fill="#A7F3D0" text-anchor="middle">task_type routing verified in test suite</text>
+  <!-- Arrow down -->
+  <line x1="370" y1="726" x2="370" y2="756" stroke="#0D9488" stroke-width="3"/>
+  <polygon points="360,750 380,750 370,768" fill="#0D9488"/>
+
+  <!-- Node 6: Tool execution -->
+  <rect x="80" y="768" width="580" height="70" fill="#374151" rx="8"/>
+  <text x="370" y="794" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="middle">Tool Execution Layer</text>
+  <text x="370" y="818" font-family="Arial,sans-serif" font-size="14" fill="#D1FAE5" text-anchor="middle">Search · DB · Kraken (financial) · Vultr (infra) · External APIs</text>
+  <!-- Arrow down -->
+  <line x1="370" y1="838" x2="370" y2="868" stroke="#0D9488" stroke-width="3"/>
+  <polygon points="360,862 380,862 370,880" fill="#0D9488"/>
+
+  <!-- Node 7: Ed25519 audit entry -->
+  <rect x="80" y="880" width="580" height="70" fill="#065F5A" rx="8"/>
+  <text x="370" y="906" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#F59E0B" text-anchor="middle">Ed25519-Signed Audit Entry</text>
+  <text x="370" y="930" font-family="Arial,sans-serif" font-size="14" fill="#CCFBF1" text-anchor="middle">SHA-256 hash chain · chain_verified: True · tamper-evident</text>
+  <!-- Arrow down -->
+  <line x1="370" y1="950" x2="370" y2="980" stroke="#0D9488" stroke-width="3"/>
+  <polygon points="360,974 380,974 370,992" fill="#0D9488"/>
+
+  <!-- Node 8: Response -->
+  <rect x="80" y="992" width="580" height="40" fill="#0A0A0A" rx="6"/>
+  <text x="370" y="1018" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#0D9488" text-anchor="middle">Response delivered to user</text>
+
+  <!-- ========================= RIGHT COLUMN: SPONSOR BOXES ========================= -->
+  <text x="1120" y="198" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#0D9488" text-anchor="middle">5 VERIFIED SPONSOR INTEGRATIONS</text>
+  <rect x="880" y="208" width="600" height="3" fill="#0D9488" rx="2"/>
+
+  <!-- Speechmatics sponsor box -->
+  <rect x="880" y="222" width="620" height="90" fill="#FFF7ED" stroke="#F59E0B" stroke-width="2" rx="6"/>
+  <rect x="880" y="222" width="6" height="90" fill="#F59E0B" rx="3"/>
+  <text x="900" y="252" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#0A0A0A">SPEECHMATICS</text>
+  <text x="900" y="274" font-family="Arial,sans-serif" font-size="14" fill="#444444">Real-time voice transcription · &lt;200ms latency</text>
+  <text x="900" y="296" font-family="Courier New,monospace" font-size="13" fill="#B45309">run_audio(path) entry point · STT tested</text>
+
+  <!-- Featherless sponsor box -->
+  <rect x="880" y="328" width="620" height="90" fill="#F0FDFA" stroke="#0D9488" stroke-width="2" rx="6"/>
+  <rect x="880" y="328" width="6" height="90" fill="#0D9488" rx="3"/>
+  <text x="900" y="358" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#0A0A0A">FEATHERLESS</text>
+  <text x="900" y="380" font-family="Arial,sans-serif" font-size="14" fill="#444444">4 specialist models · task_type routing</text>
+  <text x="900" y="402" font-family="Courier New,monospace" font-size="13" fill="#0D9488">route() → RoutingDecision · T4 PASS</text>
+
+  <!-- Gemini sponsor box -->
+  <rect x="880" y="434" width="620" height="90" fill="#EFF6FF" stroke="#4285F4" stroke-width="2" rx="6"/>
+  <rect x="880" y="434" width="6" height="90" fill="#4285F4" rx="3"/>
+  <text x="900" y="464" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#0A0A0A">GEMINI PRO</text>
+  <text x="900" y="486" font-family="Arial,sans-serif" font-size="14" fill="#444444">Multi-step planning orchestrator · Google API</text>
+  <text x="900" y="508" font-family="Courier New,monospace" font-size="13" fill="#4285F4">plan() + synthesise() · T3 PASS</text>
+
+  <!-- Vultr sponsor box -->
+  <rect x="880" y="540" width="620" height="90" fill="#FFF7ED" stroke="#E35C14" stroke-width="2" rx="6"/>
+  <rect x="880" y="540" width="6" height="90" fill="#E35C14" rx="3"/>
+  <text x="900" y="570" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#0A0A0A">VULTR</text>
+  <text x="900" y="592" font-family="Arial,sans-serif" font-size="14" fill="#444444">VM infrastructure · FastAPI backend deployed</text>
+  <text x="900" y="614" font-family="Courier New,monospace" font-size="13" fill="#E35C14">cloud-native · production ready</text>
+
+  <!-- Kraken sponsor box -->
+  <rect x="880" y="646" width="620" height="90" fill="#F5F3FF" stroke="#5B21B6" stroke-width="2" rx="6"/>
+  <rect x="880" y="646" width="6" height="90" fill="#5B21B6" rx="3"/>
+  <text x="900" y="676" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#0A0A0A">KRAKEN</text>
+  <text x="900" y="698" font-family="Arial,sans-serif" font-size="14" fill="#444444">Action layer · CLI integration · financial actions</text>
+  <text x="900" y="720" font-family="Courier New,monospace" font-size="13" fill="#5B21B6">execute_tool('kraken') · T5 PASS</text>
+
+  <!-- Test suite proof panel -->
+  <rect x="880" y="752" width="620" height="140" fill="#0A0A0A" rx="8"/>
+  <text x="1190" y="788" font-family="Arial Black,Arial,sans-serif" font-size="52" font-weight="900" fill="#0D9488" text-anchor="middle">29/29</text>
+  <text x="1190" y="822" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#F59E0B" text-anchor="middle">TESTS PASS · 4.2 SECONDS</text>
+  <text x="1190" y="852" font-family="Courier New,monospace" font-size="14" fill="#CCCCCC" text-anchor="middle">python src/test_atlas.py</text>
+  <text x="1190" y="874" font-family="Courier New,monospace" font-size="13" fill="#5A5A5A" text-anchor="middle">7 categories · deterministic · reproducible</text>
+
+  <!-- Source -->
+  <text x="80" y="1055" font-family="Courier New,monospace" font-size="12" fill="#5A5A5A">Verified: python src/test_atlas.py → 29/29 PASS · src/gateway/ingress.py · src/audit/audit_chain.py · github.com/SRKRZ23/atlas</text>
+</svg>

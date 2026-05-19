@@ -1,0 +1,176 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <!-- White background -->
+  <rect width="1920" height="1080" fill="#FFFFFF"/>
+  <!-- Left vertical accent stripe -->
+  <rect x="0" y="0" width="8" height="1080" fill="#7C3AED"/>
+
+  <!-- Top thin accent bar -->
+  <rect x="0" y="0" width="1920" height="4" fill="#7C3AED"/>
+  <!-- Bottom thin accent bar -->
+  <rect x="0" y="1076" width="1920" height="4" fill="#7C3AED"/>
+
+  <!-- Background geometric pattern — subtle hexagonal grid (right side) -->
+  <!-- Faint hex outlines for depth -->
+  <g opacity="0.04" stroke="#7C3AED" stroke-width="1.5" fill="none">
+    <polygon points="1600,80 1660,115 1660,185 1600,220 1540,185 1540,115"/>
+    <polygon points="1720,80 1780,115 1780,185 1720,220 1660,185 1660,115"/>
+    <polygon points="1660,185 1720,220 1720,290 1660,325 1600,290 1600,220"/>
+    <polygon points="1600,290 1660,325 1660,395 1600,430 1540,395 1540,325"/>
+    <polygon points="1720,290 1780,325 1780,395 1720,430 1660,395 1660,325"/>
+    <polygon points="1840,80  1900,115 1900,185 1840,220 1780,185 1780,115"/>
+    <polygon points="1780,185 1840,220 1840,290 1780,325 1720,290 1720,220"/>
+    <polygon points="1840,290 1900,325 1900,395 1840,430 1780,395 1780,325"/>
+    <polygon points="1600,430 1660,465 1660,535 1600,570 1540,535 1540,465"/>
+    <polygon points="1720,430 1780,465 1780,535 1720,570 1660,535 1660,465"/>
+    <polygon points="1840,430 1900,465 1900,535 1840,570 1780,535 1780,465"/>
+    <polygon points="1660,535 1720,570 1720,640 1660,675 1600,640 1600,570"/>
+    <polygon points="1780,535 1840,570 1840,640 1780,675 1720,640 1720,570"/>
+    <polygon points="1600,640 1660,675 1660,745 1600,780 1540,745 1540,675"/>
+    <polygon points="1720,640 1780,675 1780,745 1720,780 1660,745 1660,675"/>
+    <polygon points="1840,640 1900,675 1900,745 1840,780 1780,745 1780,675"/>
+    <polygon points="1660,745 1720,780 1720,850 1660,885 1600,850 1600,780"/>
+    <polygon points="1780,745 1840,780 1840,850 1780,885 1720,850 1720,780"/>
+    <polygon points="1600,850 1660,885 1660,955 1600,990 1540,955 1540,885"/>
+    <polygon points="1720,850 1780,885 1780,955 1720,990 1660,955 1660,885"/>
+    <polygon points="1840,850 1900,885 1900,955 1840,990 1780,955 1780,885"/>
+  </g>
+
+  <!-- ATLAS large logo hexagon (left-center area) -->
+  <polygon
+    points="200,340 314,406 314,536 200,602 86,536 86,406"
+    fill="#7C3AED"
+  />
+  <!-- Hexagon inner network lines -->
+  <line x1="200" y1="340" x2="200" y2="602" stroke="#FFFFFF" stroke-width="1.5" opacity="0.3"/>
+  <line x1="86"  y1="406" x2="314" y2="536" stroke="#FFFFFF" stroke-width="1.5" opacity="0.3"/>
+  <line x1="314" y1="406" x2="86"  y2="536" stroke="#FFFFFF" stroke-width="1.5" opacity="0.3"/>
+  <circle cx="200" cy="340" r="6" fill="#FFFFFF" opacity="0.9"/>
+  <circle cx="314" cy="406" r="6" fill="#FFFFFF" opacity="0.9"/>
+  <circle cx="314" cy="536" r="6" fill="#FFFFFF" opacity="0.9"/>
+  <circle cx="200" cy="602" r="6" fill="#FFFFFF" opacity="0.9"/>
+  <circle cx="86"  cy="536" r="6" fill="#FFFFFF" opacity="0.9"/>
+  <circle cx="86"  cy="406" r="6" fill="#FFFFFF" opacity="0.9"/>
+  <circle cx="200" cy="471" r="8" fill="#FFFFFF"/>
+  <text x="200" y="495" font-family="-apple-system,'Helvetica Neue',Arial,sans-serif" font-weight="900" font-size="110" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">A</text>
+
+  <!-- Main headline -->
+  <text x="400" y="390" font-family="-apple-system,'Helvetica Neue',Arial,sans-serif" font-weight="900" font-size="110" fill="#0A0A0A" dominant-baseline="auto" letter-spacing="-3">ATLAS</text>
+
+  <!-- Tagline -->
+  <text x="400" y="470" font-family="-apple-system,'Helvetica Neue',Arial,sans-serif" font-weight="400" font-size="28" fill="#5A5A5A">Every agentic decision inspected, signed, auditable.</text>
+
+  <!-- Divider line -->
+  <rect x="400" y="500" width="900" height="3" fill="#7C3AED"/>
+
+  <!-- Key stats row -->
+  <!-- Stat 1 -->
+  <text x="400" y="560" font-family="-apple-system,'Helvetica Neue',Arial,sans-serif" font-weight="900" font-size="52" fill="#ED1C24">29/29</text>
+  <text x="400" y="600" font-family="-apple-system,'Helvetica Neue',Arial,sans-serif" font-weight="400" font-size="20" fill="#5A5A5A">tests PASS</text>
+
+  <!-- Stat 2 -->
+  <text x="600" y="560" font-family="-apple-system,'Helvetica Neue',Arial,sans-serif" font-weight="900" font-size="52" fill="#ED1C24">5</text>
+  <text x="600" y="600" font-family="-apple-system,'Helvetica Neue',Arial,sans-serif" font-weight="400" font-size="20" fill="#5A5A5A">sponsors integrated</text>
+
+  <!-- Stat 3 -->
+  <text x="820" y="560" font-family="-apple-system,'Helvetica Neue',Arial,sans-serif" font-weight="900" font-size="52" fill="#ED1C24">&lt;1ms</text>
+  <text x="820" y="600" font-family="-apple-system,'Helvetica Neue',Arial,sans-serif" font-weight="400" font-size="20" fill="#5A5A5A">DPI inspection latency</text>
+
+  <!-- Stat 4 -->
+  <text x="1060" y="560" font-family="-apple-system,'Helvetica Neue',Arial,sans-serif" font-weight="900" font-size="52" fill="#ED1C24">F1=1.000</text>
+  <text x="1060" y="600" font-family="-apple-system,'Helvetica Neue',Arial,sans-serif" font-weight="400" font-size="20" fill="#5A5A5A">over 231 prompts, 0 FP</text>
+
+  <!-- Pipeline mini-diagram -->
+  <text x="400" y="680" font-family="-apple-system,'Helvetica Neue',Arial,sans-serif" font-weight="700" font-size="17" fill="#7C3AED" letter-spacing="2">PIPELINE</text>
+
+  <!-- Pipeline boxes -->
+  <g font-family="-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="14" font-weight="700">
+    <!-- Voice -->
+    <rect x="400" y="695" width="110" height="38" fill="#7C3AED" rx="4"/>
+    <text x="455" y="719" fill="#FFFFFF" text-anchor="middle">Voice Input</text>
+    <text x="516" y="717" fill="#7C3AED" font-size="20" font-weight="900">→</text>
+    <!-- Speechmatics -->
+    <rect x="528" y="695" width="130" height="38" fill="#F3F0FF" rx="4"/>
+    <rect x="528" y="695" width="4" height="38" fill="#7C3AED" rx="2"/>
+    <text x="600" y="719" fill="#7C3AED" text-anchor="middle">Speechmatics</text>
+    <text x="664" y="717" fill="#7C3AED" font-size="20" font-weight="900">→</text>
+    <!-- SOUF AI DPI -->
+    <rect x="676" y="695" width="120" height="38" fill="#FFF0F0" rx="4"/>
+    <rect x="676" y="695" width="4" height="38" fill="#ED1C24" rx="2"/>
+    <text x="740" y="712" fill="#ED1C24" text-anchor="middle" font-size="13">SOUF AI</text>
+    <text x="740" y="727" fill="#ED1C24" text-anchor="middle" font-size="11">DPI Gate</text>
+    <text x="802" y="717" fill="#7C3AED" font-size="20" font-weight="900">→</text>
+    <!-- Gemini -->
+    <rect x="814" y="695" width="110" height="38" fill="#F3F0FF" rx="4"/>
+    <rect x="814" y="695" width="4" height="38" fill="#7C3AED" rx="2"/>
+    <text x="873" y="719" fill="#7C3AED" text-anchor="middle">Gemini 2.0</text>
+    <text x="930" y="717" fill="#7C3AED" font-size="20" font-weight="900">→</text>
+    <!-- Featherless -->
+    <rect x="942" y="695" width="120" height="38" fill="#F3F0FF" rx="4"/>
+    <rect x="942" y="695" width="4" height="38" fill="#7C3AED" rx="2"/>
+    <text x="1004" y="719" fill="#7C3AED" text-anchor="middle">Featherless</text>
+    <text x="1068" y="717" fill="#7C3AED" font-size="20" font-weight="900">→</text>
+    <!-- Audit -->
+    <rect x="1080" y="695" width="110" height="38" fill="#0A0A0A" rx="4"/>
+    <text x="1137" y="719" fill="#FFFFFF" text-anchor="middle">Ed25519 Audit</text>
+  </g>
+
+  <!-- Sponsor logos text row -->
+  <text x="400" y="790" font-family="-apple-system,'Helvetica Neue',Arial,sans-serif" font-weight="700" font-size="17" fill="#7C3AED" letter-spacing="2">SPONSORS</text>
+
+  <g font-family="-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="14" font-weight="700">
+    <rect x="400" y="800" width="145" height="36" fill="#F3F0FF" rx="4"/>
+    <rect x="400" y="800" width="4" height="36" fill="#7C3AED"/>
+    <text x="481" y="823" fill="#7C3AED" text-anchor="middle">Speechmatics</text>
+
+    <rect x="560" y="800" width="130" height="36" fill="#F3F0FF" rx="4"/>
+    <rect x="560" y="800" width="4" height="36" fill="#7C3AED"/>
+    <text x="633" y="823" fill="#7C3AED" text-anchor="middle">Featherless</text>
+
+    <rect x="706" y="800" width="140" height="36" fill="#F3F0FF" rx="4"/>
+    <rect x="706" y="800" width="4" height="36" fill="#7C3AED"/>
+    <text x="778" y="823" fill="#7C3AED" text-anchor="middle">Google Gemini</text>
+
+    <rect x="862" y="800" width="110" height="36" fill="#F3F0FF" rx="4"/>
+    <rect x="862" y="800" width="4" height="36" fill="#7C3AED"/>
+    <text x="920" y="823" fill="#7C3AED" text-anchor="middle">Vultr</text>
+
+    <rect x="988" y="800" width="110" height="36" fill="#F3F0FF" rx="4"/>
+    <rect x="988" y="800" width="4" height="36" fill="#7C3AED"/>
+    <text x="1046" y="823" fill="#7C3AED" text-anchor="middle">Kraken</text>
+  </g>
+
+  <!-- Bottom caption -->
+  <text x="400" y="910" font-family="-apple-system,'Helvetica Neue',Arial,sans-serif" font-weight="400" font-size="16" fill="#5A5A5A">AI Agent Olympics 2026  ·  $28K+ Prize Pool  ·  Deadline: May 19, 2026</text>
+
+  <!-- Audit trail badge (right side) -->
+  <rect x="1400" y="380" width="420" height="280" fill="#F3F0FF" rx="8"/>
+  <rect x="1400" y="380" width="6" height="280" fill="#7C3AED" rx="3"/>
+  <text x="1614" y="418" font-family="-apple-system,'Helvetica Neue',Arial,sans-serif" font-weight="900" font-size="18" fill="#7C3AED" text-anchor="middle" letter-spacing="2">AUDIT CHAIN SAMPLE</text>
+  <rect x="1420" y="428" width="382" height="1" fill="#7C3AED" opacity="0.3"/>
+
+  <text x="1420" y="460" font-family="'Courier New', monospace" font-size="12" fill="#0A0A0A">action: run_text()</text>
+  <text x="1420" y="480" font-family="'Courier New', monospace" font-size="12" fill="#0A0A0A">decision: ALLOW</text>
+  <text x="1420" y="500" font-family="'Courier New', monospace" font-size="12" fill="#0A0A0A">sig: Ed25519</text>
+  <text x="1420" y="520" font-family="'Courier New', monospace" font-size="12" fill="#0A0A0A">hash: SHA-256 chain</text>
+  <text x="1420" y="540" font-family="'Courier New', monospace" font-size="12" fill="#0A0A0A">chain_verified: <tspan fill="#7C3AED" font-weight="900">True</tspan></text>
+  <text x="1420" y="560" font-family="'Courier New', monospace" font-size="12" fill="#0A0A0A">records: <tspan fill="#ED1C24" font-weight="900">8</tspan> per request</text>
+
+  <rect x="1420" y="578" width="382" height="1" fill="#7C3AED" opacity="0.3"/>
+  <text x="1420" y="600" font-family="'Courier New', monospace" font-size="12" fill="#ED1C24">INJECTION ATTEMPT → DENY</text>
+  <text x="1420" y="620" font-family="'Courier New', monospace" font-size="12" fill="#5A5A5A">rule: SOUF_INJECTION_001</text>
+  <text x="1420" y="640" font-family="'Courier New', monospace" font-size="12" fill="#5A5A5A">latency: &lt;1ms  |  FP: 0</text>
+
+  <!-- Right-side model routing box -->
+  <rect x="1400" y="690" width="420" height="220" fill="#FAFAFA" rx="8"/>
+  <rect x="1400" y="690" width="6" height="220" fill="#7C3AED" rx="3"/>
+  <text x="1614" y="728" font-family="-apple-system,'Helvetica Neue',Arial,sans-serif" font-weight="900" font-size="18" fill="#7C3AED" text-anchor="middle" letter-spacing="2">MODEL ROUTING</text>
+  <rect x="1420" y="738" width="382" height="1" fill="#7C3AED" opacity="0.3"/>
+
+  <text x="1420" y="762" font-family="-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="14" fill="#0A0A0A">medical    <tspan font-weight="900" fill="#7C3AED">→  BioMistral-7B</tspan></text>
+  <text x="1420" y="786" font-family="-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="14" fill="#0A0A0A">code       <tspan font-weight="900" fill="#7C3AED">→  DeepSeek-Coder-6.7B</tspan></text>
+  <text x="1420" y="810" font-family="-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="14" fill="#0A0A0A">multilingual<tspan font-weight="900" fill="#7C3AED"> →  Qwen2.5-7B</tspan></text>
+  <text x="1420" y="834" font-family="-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="14" fill="#0A0A0A">general    <tspan font-weight="900" fill="#7C3AED">→  Llama-3.1-8B</tspan></text>
+
+  <rect x="1420" y="848" width="382" height="1" fill="#7C3AED" opacity="0.3"/>
+  <text x="1420" y="870" font-family="-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="13" fill="#5A5A5A">via Featherless  ·  4 OSS models  ·  zero vendor lock-in</text>
+</svg>

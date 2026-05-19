@@ -1,0 +1,1 @@
+"""ATLAS Streamlit frontend."""
