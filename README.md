@@ -5,6 +5,12 @@
 
 **AI Agent Olympics 2026 · $28K+ · All 5 sponsors integrated**
 
+**🎥 Video walkthrough (3 min):** [https://youtu.be/i78OdyRYiOs](https://youtu.be/i78OdyRYiOs)
+**🧪 Reproduce in <1 second:** `python3 src/test_atlas.py` → 29/29 PASS
+**📊 Pitch deck (8 slides):** [submissions/ATLAS_pitch_deck.pdf](submissions/ATLAS_pitch_deck.pdf)
+
+![ATLAS banner](branding/banner_cover.png)
+
 ---
 
 ## The Problem

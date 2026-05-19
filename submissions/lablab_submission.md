@@ -1,5 +1,9 @@
 # ATLAS — AI Agent Olympics Submission
 
+**Video (3 min):** https://youtu.be/i78OdyRYiOs
+**GitHub:** https://github.com/SRKRZ23/atlas
+**Pitch deck:** submissions/ATLAS_pitch_deck.pdf (8 slides, 1.5MB)
+
 ## Project Name
 ATLAS — Enterprise Multi-Agent System with Governance
 
