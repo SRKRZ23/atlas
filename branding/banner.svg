@@ -157,7 +157,7 @@
 
   <rect x="1420" y="578" width="382" height="1" fill="#7C3AED" opacity="0.3"/>
   <text x="1420" y="600" font-family="'Courier New', monospace" font-size="12" fill="#ED1C24">INJECTION ATTEMPT → DENY</text>
-  <text x="1420" y="620" font-family="'Courier New', monospace" font-size="12" fill="#5A5A5A">rule: SOUF_INJECTION_001</text>
+  <text x="1420" y="620" font-family="'Courier New', monospace" font-size="12" fill="#5A5A5A">rule: block_injection</text>
   <text x="1420" y="640" font-family="'Courier New', monospace" font-size="12" fill="#5A5A5A">latency: &lt;1ms  |  FP: 0</text>
 
   <!-- Right-side model routing box -->
