@@ -3,11 +3,15 @@
 > Every agentic decision is inspected, signed, and auditable.
 > Built for enterprises that can't afford to not know what their AI did.
 
-**AI Agent Olympics 2026 · $28K+ · All 5 sponsors integrated**
+**Milan AI Week Hackathon 2026 · $32K+ · 7 sponsor tracks · All 5 sponsors integrated**
 
 **🎥 Video walkthrough (3 min):** [https://youtu.be/i78OdyRYiOs](https://youtu.be/i78OdyRYiOs)
 **🧪 Reproduce in <1 second:** `python3 src/test_atlas.py` → 29/29 PASS
 **📊 Pitch deck (8 slides):** [submissions/ATLAS_pitch_deck.pdf](submissions/ATLAS_pitch_deck.pdf)
+**📋 Lablab submission:** [atlas-enterprise-multi-agent-governance](https://lablab.ai/ai-hackathons/milan-ai-week-hackathon/atlas/atlas-enterprise-multi-agent-governance)
+
+**📣 Featured in build-in-public posts:**
+[LinkedIn](https://www.linkedin.com/posts/sardor-razikov-569a5327b_atlas-enterprise-multi-agent-system-ai-activity-7462457002317975552-ADGR) · [X thread](https://x.com/SardorRazi99093/status/2056690128613970060) · [Facebook](https://www.facebook.com/share/p/1Nr4M2WhUG/)
 
 ![ATLAS banner](branding/banner_cover.png)
 
