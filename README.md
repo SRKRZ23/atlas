@@ -1,11 +1,12 @@
-# ATLAS — Enterprise Multi-Agent System with Governance
+# ATLAS
 
-> Every agentic decision is inspected, signed, and auditable.
-> Built for enterprises that can't afford to not know what their AI did.
+> **Other governance tools scan messages. ATLAS audits every agent action with Ed25519 receipts.**
 
-**Milan AI Week Hackathon 2026 · $32K+ · 7 sponsor tracks · All 5 sponsors integrated**
+**A compliance officer drops a 1500-line policy file into ATLAS and gets a tamper-evident audit chain for every AI agent decision — voice, text, or tool call — in 0.79 seconds.** Built on Speechmatics (voice ingress), Featherless (model routing), and Anthropic Claude (orchestration).
 
-**🎥 Video walkthrough (3 min):** [https://youtu.be/i78OdyRYiOs](https://youtu.be/i78OdyRYiOs)
+🏅 **Certificate of Completion** — AI Agent Olympics Hackathon (Milan AI Week 2026), signed by Pawel Czech, Founder NativelyAI. Cert ID: `CMPFK6VG300GLS601G9P45XEU`
+
+**🎥 3-minute walkthrough:** [https://youtu.be/i78OdyRYiOs](https://youtu.be/i78OdyRYiOs)
 **🧪 Reproduce in <1 second:** `python3 src/test_atlas.py` → 29/29 PASS
 **📊 Pitch deck (8 slides):** [submissions/ATLAS_pitch_deck.pdf](submissions/ATLAS_pitch_deck.pdf)
 **📋 Lablab submission:** [atlas-enterprise-multi-agent-governance](https://lablab.ai/ai-hackathons/milan-ai-week-hackathon/atlas/atlas-enterprise-multi-agent-governance)
