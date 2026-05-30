@@ -21,7 +21,7 @@ Enterprise LLM agents make decisions that affect real systems — databases, API
 ```
 [Voice Input] → Speechmatics RT (< 200ms transcription)
     ↓
-[SOUF AI DPI] → adversarial prompt inspection (< 1ms, OWASP LLM Top 10 coverage)
+[DPI Engine] → adversarial prompt inspection (< 1ms, OWASP LLM Top 10 coverage)
     ↓ ALLOW                                     ↓ DENY: 403 + regulation citation
 [Gemini 2.0 Flash Orchestrator] → plans multi-step task
     ↓
@@ -52,9 +52,9 @@ Enterprise LLM agents make decisions that affect real systems — databases, API
 | **Vultr** | Infrastructure layer | Instance queries, region data, provisioning |
 | **Kraken** | Financial action layer | Live ticker, bid/ask, 24h volume |
 
-## SOUF AI Governance
+## Inline Governance Layer
 
-ATLAS embeds SOUF AI DPI at the ingress layer. Every prompt is inspected before reaching Gemini. SOUF AI v0.5f:
+ATLAS embeds DPI Engine at the ingress layer. Every prompt is inspected before reaching Gemini. DPI Engine:
 - 16 PatternSets, 337 regex rules (benchmark-verified)
 - 5 benchmark categories: in-distribution, OOD, HIPAA, PCI-DSS, encoding attacks
 - All 231 prompts: F1 = 1.000, 0 false positives
@@ -92,7 +92,7 @@ Test suite: **29/29 PASS** across 7 categories:
 Enterprise research workflow:
 1. Voice: "Research AMD MI300X vs H100 for our ML infrastructure, check current costs, execute a Vultr instance query, and prepare a procurement recommendation"
 2. Speechmatics transcribes in < 200ms
-3. SOUF AI inspects (< 1ms) → ALLOW
+3. DPI inspects (< 1ms) → ALLOW
 4. Gemini plans 4 subtasks: search, financial data, infrastructure query, synthesis
 5. Featherless routes: agentic → MiniMax-M2.5, code → DeepSeek-V3.2, general → Llama-3.3-70B
 6. Kraken: BTC/ETH market context; Vultr: instance pricing query
@@ -109,7 +109,7 @@ Enterprise research workflow:
 - Featherless API
 - Vultr API
 - Kraken API
-- SOUF AI dpi_engine.py (governance)
+- dpi_engine.py (governance)
 - Ed25519 / SHA-256 audit chain
 
 ## Team

@@ -33,7 +33,7 @@ Goldman Sachs CIO said publicly: *"We don't know what controls we need for agent
 ```
 [Voice Input] → Speechmatics RT (< 200ms)
     ↓
-[SOUF AI DPI] → adversarial prompt inspection (< 1ms, blocks OWASP LLM Top 10)
+[DPI Engine] → adversarial prompt inspection (< 1ms, blocks OWASP LLM Top 10)
     ↓ ALLOW                                         → DENY: 403 + citation
 [Gemini 2.0 Flash Orchestrator] → plans multi-step task
     ↓
@@ -54,7 +54,7 @@ Goldman Sachs CIO said publicly: *"We don't know what controls we need for agent
 [Gemini Synthesis] → final verified response
 ```
 
-**Every step is SOUF AI-governed and Ed25519-signed.**
+**Every step is governance-layer-protected and Ed25519-signed.**
 
 ---
 
@@ -70,11 +70,11 @@ Goldman Sachs CIO said publicly: *"We don't know what controls we need for agent
 
 ---
 
-## SOUF AI Governance
+## Inline Governance Layer
 
-ATLAS embeds SOUF AI DPI at the ingress layer. Every user prompt is inspected before reaching Gemini. Adversarial instructions, jailbreak attempts, and exfiltration commands are blocked with a 403 + regulation citation.
+ATLAS embeds DPI Engine at the ingress layer. Every user prompt is inspected before reaching Gemini. Adversarial instructions, jailbreak attempts, and exfiltration commands are blocked with a 403 + regulation citation.
 
-SOUF AI v0.5f capabilities:
+DPI Engine capabilities:
 - 16 PatternSets, 337 regex rules (benchmark-verified on Go binary)
 - OWASP LLM Top 10 coverage
 - Encoding attack defense: base64 meta-instructions, token-split obfuscation, fullwidth unicode, Cyrillic/Greek confusable map
@@ -126,7 +126,7 @@ atlas/
   src/
     agent.py                    # Main pipeline orchestration
     gateway/
-      ingress.py                # Speechmatics + SOUF AI DPI
+      ingress.py                # Speechmatics + DPI Engine
     orchestrator/
       gemini_orchestrator.py    # Gemini task planning + synthesis
     router/
